@@ -1,0 +1,10 @@
+.navul{
+    display: flex;
+
+}
+.nav-item{
+    list-style-type: none;
+}
+.nav-link{
+    text-decoration: none;
+}
