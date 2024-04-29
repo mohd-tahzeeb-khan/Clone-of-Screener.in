@@ -8,7 +8,7 @@ navbar = html.Nav(id='navbar', className='navbar', children=[
         html.Li(id='title_li', className='nav-item', children=[
             html.A(id='title_link', className='nav-link', children='SCREENS', href='www.kkp.com'),
         ]),
-        dcc.Dropdown(['tahzeeb', 'saniya', 'dudh wali'], placeholder='TOOLS'),
+        dcc.Dropdown(['tahzeeb', 'saniya', 'dudh wali'], placeholder='TOOLS', className='dropdownmenu', optionHeight=30, maxHeight=250),
             
         ]),
         html.Div(id='rightside', className='rightside', children=[
