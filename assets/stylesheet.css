@@ -63,9 +63,8 @@ body{
 }
 .dropdownmenu{
     background-color: transparent;
-    color: red;
     border: none;
-    width: 100px;
+    width: 400px;
 }
 .userimg{
     /* margin: 10px; */
@@ -98,26 +97,23 @@ body{
 .btnlogin:hover{
     color: #625afc
 }
-
-:root {
-    --palette-color-1: rgb(0, 0, 0);
-    --palette-color-2: rgba(0, 0, 0, 0);
-    --palette-color-3: rgb(34, 34, 47);
-    --palette-color-4: rgb(241, 244, 248);
-    --palette-color-5: rgb(96, 111, 123);
-    --palette-color-6: rgb(102, 102, 102);
-    --palette-color-7: rgb(255, 255, 255);
-    --palette-color-8: rgb(252, 251, 253);
-    --palette-color-9: rgb(100, 93, 249);
-    --palette-color-10: rgb(248, 248, 252);
-    --palette-color-11: rgb(102, 94, 253);
-    --palette-color-12: rgba(96, 111, 123, 0.8);
-    --palette-color-13: rgb(218, 42, 7);
+.heading-span{
+    color: #000000;
+    font-family: "Inter",sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 14px;
+   
+}
+.toollogo{
+    width: 30px;
+    height: inherit;
+    background: #e9e9e9;
+    padding: 10px;
+    border-radius: 20px;
+   
+}
+.Select-input{
+    display: flex;
     
-    
-    --palette-font-1: Inter var;
-    --palette-font-2: Inter;
-    --palette-font-3: fontello;
-    }
-    
-    
+}
