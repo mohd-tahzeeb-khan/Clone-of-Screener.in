@@ -117,3 +117,63 @@ body{
     display: flex;
     
 }
+
+/* Footer */
+.Footer{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: #fff;
+    padding: 60px 60px;
+}
+.footerlogo{
+    width: 130px;
+}
+.footer-left-common-class, .footer-right-common-class{
+    color: #606f7b;
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+
+}
+.footer-company-title{
+    color: #22222f;
+    /* font-family: 'Inter' sans-serif; */
+    font-family: "Inter", sans-serif;
+    font-size: 19px;
+    font-weight: 500;
+}
+.rightfooter{
+    display: grid;
+    grid-template-columns:repeat(3, 33%);
+}
+.Footer-links{
+    color: #606f7b;
+    text-decoration: none;
+    font-family: "Inter" sans-serif;
+    padding-bottom: 15px;
+
+}
+
+.Product{
+    display: grid;
+    align-items: center;
+}
+.installbtn{
+    width: 150px;
+    font-family: "Inter" sans-serif;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #625afc;
+    background: #fff;
+    border:1px solid #625afc;
+    border-radius: 6px;
+}
+.Team{
+    display: grid;
+    align-items: center;
+}
+.Theme{
+    display: grid;
+    align-items: center;
+}
