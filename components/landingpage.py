@@ -1,19 +1,4 @@
 from dash import Dash, html, dcc
-suggestions = [
-    "Suggestion 1",
-    "Suggestion 2",
-    "Suggestion 3",
-    "Suggestion 4",
-    "Suggestion 5",
-    "Suggestion 6",
-    "Suggestion 7",
-    "Suggestion 8",
-    "Suggestion 9",
-    "Suggestion 10",
-    "Suggestion 11",
-    "Suggestion 12"
-]
-buttons = [html.Button(suggestion, className='suggestion-button') for suggestion in enumerate(suggestions)]
 landing=html.Div(id='main-landing', className='main-landing', children=[
     html.Div(id='div-logo', className='div-logo', children=[
         html.Img(id='main-logo', className='main-logo', children=[],
