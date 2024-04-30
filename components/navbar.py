@@ -56,10 +56,10 @@ navbar = html.Nav(id='navbar', className='navbar', children=[
         ]),
         html.Div(id='rightside', className='rightside', children=[
             
-            html.Div(id='divlogin', className='divlogin', children=[html.Img(id='userimg', className='userimg', children=[], src='assets/user.png', alt='User'),html.A(id='btnlogin', className='btnlogin', children=['Login'], href='www.tahzeeb.k'),
+            html.Div(id='divlogin', className='divlogin', children=[html.Img(id='userimg', className='userimg', children=[], src='assets/user.png', alt='User'),html.A(id='btnlogin', className='btnlogin', children=['Login'], href='https://www.screener.in/login/?'),
         ]),
         html.Div(id='divgetfreeaccount', className='divgetfreeaccount', children=[html.A(id='btngetfreeaccount', className='btngetfreeaccount', children=['Get Free Account'],
-            href='www.tahzeeb.k')
+            href='https://www.screener.in/register/?')
             
         ])
         
