@@ -177,3 +177,32 @@ body{
     display: grid;
     align-items: center;
 }
+/* Landing page */
+.main-landing{
+    margin-top: 150px;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    grid-template-rows: 20% 10% 10% 60%;
+    align-content: center;
+    justify-content: center;
+}
+.div-slogan{
+
+    text-align: center;
+}
+.div-logo, .div-search-bar{
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+.search-bar-img{
+    width: 25px;
+    background-color: #fff;
+}
+.input-search-bar{
+    border: 1px solid #666666;
+    width: 600px;
+    height: 50px;
+    font-size: 20px;
+}
