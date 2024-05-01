@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+
+body{
+    background-color: aqua;
+}
+.section_1{ 
+    background-color: #f8f8f8;
+    margin: 0 auto;
+    border-radius: 16px;
+    width: 90%;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 20% 10% 60%;
+}
+.title{
+    color: #22222f;
+    font-size: 40px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin: 30px; 
+}
+.box-arrow-icon{
+    margin-left: 10px;
+    width: 15px;
+}
+.anchor-link{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #66666f;
+    margin-left: 25px;
+}
+.BSE-tag::before, .NEC-tag::before{
+    content: "\F1C5";
+    font-family: 'bootstrap-icons';
+    margin-right: 5px;
+    color: #625afc;
+    font-weight: 900;
+    font-size: 14px;
+}
+.text-anchor-common{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    color: #606f7b;
+    font-size: 16px;
+}
+.website{
+    color: #625afc;
+}
+.company-symbol{
+    display: flex;
+    /* align-items: center; */
+}
+.company-symbol span, h4{
+    display: flex;
+    margin: 1px 5px 1px 5px;
+}
+.button-parent{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.download-button{
+    color: #606f7b;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    word-spacing: 5px;
+    letter-spacing: 1.2px;
+    border: 1px solid #606f7b;
+    border-radius: 6px;
+    padding: 10px 30px;
+}
+.download-button::before{
+    margin-right: 10px;
+    content: "\F30A";
+    font-family: 'bootstrap-icons';
+}
+.download-button:hover{
+    color: #625afc;
+}
+.Follow-button{
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    text-decoration: none;
+    word-spacing: 5px;
+    letter-spacing: 1.7px;
+    border: 1px solid #ffffff;
+    border-radius: 6px;
+    padding: 10px 20px;
+    background-color: #625afc;
+    margin-left: 10px;
+    text-transform: uppercase;
+}
+.Follow-button::before{
+    margin-right: 10px;
+    content: "\F4FE";
+    font-family: 'bootstrap-icons';
+}
