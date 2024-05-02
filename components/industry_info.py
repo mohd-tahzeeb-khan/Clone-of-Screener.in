@@ -40,11 +40,11 @@ section_1=html.Div(id='section_1', className='section_1', children=[
             ]),
             html.Tr(id='', className='row center-row', children=[
                 html.Td(id='', className='table-title', children=['Stock P/E']),
-                html.Td(id='#alternative-border', className='stockpe', children=['29.7']),
+                html.Td(id='', className='stockpe', children=['29.7']),
                 html.Td(id='', className='table-title', children=['Book Value']),
-                html.Td(id='#alternative-border', className='rupee-common', children=['250']),
+                html.Td(id='', className='rupee-common', children=['250']),
                 html.Td(id='', className='table-title', children=['Dividend Yield']),
-                html.Td(id='#alternative-border', className='percent-common', children=['1.26']),
+                html.Td(id='', className='percent-common', children=['1.26']),
             ]),
             html.Tr(id='', className='row', children=[
                 html.Td(id='', className='table-title', children=['ROCE']),
@@ -65,7 +65,22 @@ section_1=html.Div(id='section_1', className='section_1', children=[
         ])
         
         
-    ])
+    ]),
+    html.Div(id='', className='bottom-right-corner', children=[
+        html.Div(id='', className='', children=[
+            html.H4(id='', className='', children='About'),
+            html.P("Tata Consultancy Services is the flagship company and a part of Tata group. It is an IT services, consulting and business solutions organization that")
+            
+        ]),
+        html.Div(id='', className='', children=[
+            html.H3(id='', className='', children='Key Points'),
+            html.H4(id='', className='', children='Revenue Breakup Q2FY24'),
+            html.H4(id='', className='', children=['BFSI: ',html.Span(id='', className='', children=[html.H4(id='', className='', children='32.6'),])]),
+            
+            html.A(id='', className='', children=["Read More"], href='')
+        ])
+    ]),
+
     
     
 ])
