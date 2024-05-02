@@ -5,14 +5,15 @@ body{
     background-color: aqua;
 }
 .section_1{ 
-    background-color: #f8f8f8;
+    background-color: #ffffff;
     margin: 0 auto;
     border-radius: 16px;
     width: 90%;
     height: 500px;
     display: grid;
-    grid-template-columns: 70% 30%;
+    grid-template-columns: 65% 30%;
     grid-template-rows: 20% 10% 60%;
+    gap: 10px;
 }
 .title{
     color: #22222f;
@@ -109,4 +110,103 @@ body{
     margin-right: 10px;
     content: "\F4FE";
     font-family: 'bootstrap-icons';
+}
+.stock-detials{
+    border: 1px solid #22222f;
+    border-radius: 12px;
+    margin-left: 40px;
+    height: 280px;
+    
+}
+.detail-table{
+    margin: 20px;
+    width: 95%;
+    height: 45%;
+    border-radius: 6px;
+}
+.detail-table:nth-child(odd){
+    border-spacing: 0px;
+    border-radius: 6px;
+}
+
+.detail-table td{
+    width:fit-content;
+}
+.table-title{
+    color: #606f7b;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    padding: 10px;
+}
+.rupee-common, .percent-common, .slash-before, .stockpe{
+    font-weight: 500;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    text-align:end;
+}
+.rupee-common::before{
+    content: "\F7EC";
+    font-family: "bootstrap-icons";
+    margin: 5px;
+    color: #66666f;
+}
+.Cr-logo::after{
+    content: "Cr";
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 15px;
+    margin: 5px;
+    color: #66666f;
+}
+.percent-common::after{
+    content: "\F4D1";
+    font-family: "bootstrap-icons";
+    margin: 5px;
+    color: #66666f;
+}
+.slash-before{
+    margin: 5px;
+    color: #66666f;
+}
+.center-row{
+    background: #f1f4f8;
+}
+.bottom-details{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    align-items: flex-end;
+    margin: 20px;
+}
+.ratio-to-table-title, .Edit-button{
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.input-box{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 6px;
+    width: 400px;
+    margin-top: 10px;
+}
+.Edit-button{
+    text-decoration: none;
+    color:#625afc;
+    letter-spacing: 1.2px;
+    font-weight: 200;
+    
+}
+.Edit-Ratio::before{
+    content: "\F4CB";
+    margin: 10px;
+    font-size: 15px;
+    font-family: "bootstrap-icons";
 }
