@@ -90,15 +90,23 @@ section_1=html.Div(id='section_1', className='section_1', children=[
 Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
     html.Div(id='Pro_left', className='Pro_left', children=[
         html.H1(id='Pros-title', className='Pros-title', children='Pros'),
-        html.Li(id='pro-list', className='pro-list', children=[
-            html.Ul(id='', className='pro-ul-list', children=[
-              i  
-            ]) for i in ['a', 'b', 'c']
+        html.Ul(id='', className='', children=[
+            html.Li(id='', className='', children=[
+                i
+            ]) for i in ['Company is almost debt free.',
+                          'Company has a good return on equity (ROE) track record: 3 Years ROE 47.4%', 
+                          'Company has been maintaining a healthy dividend payout of 66.2%']
             
         ])
     ]),
     html.Div(id='Cons_right', className='Cons_right', children=[
-         html.H1(id='Cons-title', className='Cons-title', children='Cons')
-    ])
+        html.H1(id='Cons-title', className='Cons-title', children='Cons'),
+        html.Ul(id='', className='', children=[
+            html.Li(id='', className='', children=[
+                i
+            ]) for i in ['Stock is trading at 15.4 times its book value', 'Promoter holding has decreased over last quarter: -0.64%', 'The company has delivered a poor sales growth of 10.5% over past five years.']
+            
+        ])
+    ]),
     
 ])
