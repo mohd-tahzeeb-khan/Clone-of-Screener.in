@@ -88,7 +88,8 @@ section_1=html.Div(id='section_1', className='section_1', children=[
 # -------------------------------------------------Pros - Cons-------------------------------------------------
 
 Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
-    html.Div(id='Pro_left', className='Pro_left', children=[
+    html.Div(id='', className='row', children=[
+        html.Div(id='Pro_left', className='Pro_left', children=[
         html.H1(id='Pros-title', className='Pros-title', children='Pros'),
         html.Ul(id='', className='', children=[
             html.Li(id='', className='', children=[
@@ -108,5 +109,10 @@ Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
             
         ])
     ]),
+    ]),
+    html.Div(id='', className='row', children=[
+        html.Span(id='', className='bottom-text', children=['The pros and cons are machine generated.',])
+    
+    ])
     
 ])
