@@ -230,14 +230,18 @@ body{
 .ProsCons{
     background-color: #fff;
     display: flex;
+    flex-direction: column;
     width: 90%;
     margin: 10px auto;
     border-radius: 16px;
     justify-content: space-around;
 }
+.row{
+    display: flex;
+}
 .Cons_right, .Pro_left{
     width: 50%;
-    border: 1px solid green;
+    border: 1.5px solid green;
     margin: 15px;
     border-radius: 10px;
     font-weight: 400;
@@ -248,16 +252,53 @@ body{
     font-style: normal;
     letter-spacing: 0.176px;
     line-height: 25px;
+    flex: 1;
+}
+.Cons_right{
+    border-color: #f54d4d;
+}
+.Pro_left{
+    border-color: green;
 }
 .Cons_right h1, .Pro_left h1{
     text-align: left;
-    font-weight: 400;
+    font-weight: 600;
     font-family: "Inter", sans-serif;
     font-size: 16px;
-    color: #606f7b;
+    color: #22222f;
     font-optical-sizing: auto;
     font-style: normal;
+    padding: 17px 10px 0px 10px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
 }
 .Cons_right ul li, .Pro_left ul li{
     text-align: left;
+}
+.bottom-text{
+    margin:10px 10px 20px 10px;
+}
+.bottom-text{
+    font-family: "Inter", sans-serif;
+    font-size: 15px;
+    color: #000;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+.bottom-text::before{
+    content: '\F151';
+    color: #606f7b;
+    margin: 7px;
+    font-size: 8px;
+    font-family: "bootstrap-icons";
+}
+.bottom-text::after{
+    content: '\F431';
+    color: #606f7b;
+    margin: 7px;
+    font-size: 10px;
+    font-family: "bootstrap-icons";
+}
+.bottom-text:hover::after{
+    color: green;
 }
