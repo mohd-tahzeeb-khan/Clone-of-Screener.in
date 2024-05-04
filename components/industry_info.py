@@ -84,3 +84,21 @@ section_1=html.Div(id='section_1', className='section_1', children=[
     
     
 ])
+
+# -------------------------------------------------Pros - Cons-------------------------------------------------
+
+Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
+    html.Div(id='Pro_left', className='Pro_left', children=[
+        html.H1(id='Pros-title', className='Pros-title', children='Pros'),
+        html.Li(id='pro-list', className='pro-list', children=[
+            html.Ul(id='', className='pro-ul-list', children=[
+              i  
+            ]) for i in ['a', 'b', 'c']
+            
+        ])
+    ]),
+    html.Div(id='Cons_right', className='Cons_right', children=[
+         html.H1(id='Cons-title', className='Cons-title', children='Cons')
+    ])
+    
+])
