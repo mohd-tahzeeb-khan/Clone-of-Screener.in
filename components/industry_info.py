@@ -25,7 +25,7 @@ section_1=html.Div(id='section_1', className='section_1', children=[
     ]),
     html.Div(id='stock-detials', className='stock-detials', children=[
         html.Table(id='detail-table', className='detail-table', children=[
-            html.Tr(id='', className='row', children=[
+            html.Tr(id='', className='', children=[
                 html.Td(id='', className='table-title', children=['Market Cap']),
                 html.Td(id='', className='rupee-common Cr-logo', children=['1382345']),
                 html.Td(id='', className='table-title', children=['Current Price']),
@@ -38,7 +38,7 @@ section_1=html.Div(id='section_1', className='section_1', children=[
                                                                    ]),
                 
             ]),
-            html.Tr(id='', className='row center-row', children=[
+            html.Tr(id='', className=' center-row', children=[
                 html.Td(id='', className='table-title', children=['Stock P/E']),
                 html.Td(id='', className='stockpe', children=['29.7']),
                 html.Td(id='', className='table-title', children=['Book Value']),
@@ -46,7 +46,7 @@ section_1=html.Div(id='section_1', className='section_1', children=[
                 html.Td(id='', className='table-title', children=['Dividend Yield']),
                 html.Td(id='', className='percent-common', children=['1.26']),
             ]),
-            html.Tr(id='', className='row', children=[
+            html.Tr(id='', className='', children=[
                 html.Td(id='', className='table-title', children=['ROCE']),
                 html.Td(id='', className='percent-common', children=['64.3']),
                 html.Td(id='', className='table-title', children=['ROE']),
@@ -113,6 +113,37 @@ Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
     html.Div(id='', className='row', children=[
         html.Span(id='', className='bottom-text', children=['The pros and cons are machine generated.',])
     
+    ])
+    
+])
+peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=[
+    html.Div(id='main-peer-title', className='main-peer-title', children=[
+        html.H2(id='', className='peer-title', children='Peer comparison')
+    ]),
+    html.Div(id='peer-table-row-2', className='peer-table-row-2', children=[
+        html.Div(id='peer-left', className='peer-left', children=[
+            html.Div(id='', className='', children=[
+                html.H4(id='', className='', children='Sector:'),
+                html.Span(id='', className='', children=["IT-Sector"])
+                
+            ]),
+            html.Div(id='', className='', children=[
+                html.H4(id='', className='', children='Industry:'),
+                html.Span(id='', className='', children=["unknown"])
+                
+            ])
+            
+        ]),
+        html.Div(id='peer-edit-button-right', className='peer-edit-button-right', children=[
+            html.A(id='peer-edit-button', className='peer-edit-button', children=["Edit Button"], href='')
+        ])
+        
+    ]),
+    html.Div(id='peer-table-row-3', className='3', children=[
+        
+    ]),
+    html.Div(id='peer-table-row-4', className='peer-table-row-4', children=[
+        
     ])
     
 ])
