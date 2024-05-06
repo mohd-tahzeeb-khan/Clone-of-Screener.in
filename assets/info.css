@@ -1,9 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Noto+Sans+KR:wght@100..900&display=swap');
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
 
-body{
-    background-color: aqua;
-}
+
 .section_1{ 
     background-color: #ffffff;
     margin: 0 auto;
@@ -225,7 +223,7 @@ body{
     font-size: 15px;
     padding-right: 12px;
 }
-/* Pros_cons Section */
+/*----------------------------------------------- Pros_cons Section -----------------------------------------------------*/
 
 .ProsCons{
     background-color: #fff;
@@ -301,4 +299,21 @@ body{
 }
 .bottom-text:hover::after{
     color: green;
+}
+/*---------------------------------------------- Peer Table -------------------------------------------*/
+.main-peer-table{
+    width: 90%;
+    margin: 15px auto;
+    background: #ffffff;
+    display: grid;
+    grid-template-rows: 15% 15% 60% 10%;
+    gap: 20px;
+}
+.peer-table-row-2{
+    display: flex;
+    justify-content: space-between;
+}
+.peer-left{
+    display: flex;
+    justify-content: space-evenly;
 }
