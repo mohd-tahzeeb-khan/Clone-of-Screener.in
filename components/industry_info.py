@@ -1,4 +1,5 @@
 from dash import  Dash, html,dcc
+x=['tahzeeb', 'Saniya', 'Khan', 'Diwan']
 section_1=html.Div(id='section_1', className='section_1', children=[
     html.Div(id='company-title', className='company-title', children=[
         html.H1(id='title', className='title', children='Tata Consultancy Services Ltd')
@@ -116,6 +117,7 @@ Pros_Cons=html.Div(id='ProsCons', className='ProsCons', children=[
     ])
     
 ])
+#-------------------------------------Peer Table--------------------------------------------
 peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=[
     html.Div(id='main-peer-title', className='main-peer-title', children=[
         html.H2(id='', className='peer-title', children='Peer comparison')
@@ -156,10 +158,33 @@ peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=
                                                        html.Td(id='', className='', children='')])
                 
             ]),
-        ])
+        ]),
+        html.Div(id='peer-table-row-4', className='peer-table-row-4', children=[
+        html.H3(id='', className='', children='Detailed Comparison with: '),
+    dcc.Input(id='', className='comparison-input',
+        type='text',
+        placeholder='eg. Infosys',
+    )
+    ])
+    ]),  
+])
+Quarterly_Results=html.Div(id='', className='', children=[
+    html.Div(id='', className='quarterly-titles', children=[
         
     ]),
-    html.Div(id='peer-table-row-4', className='peer-table-row-4', children=[
+    html.Div(id='', className='quarterly-table', children=[
+        
+    ])
+    
+])
+Profit_Loss=html.Div(id='', className='', children=[
+    html.Div(id='', className='-profitloss-title', children=[
+        
+    ]),
+    html.Div(id='', className='profitloss-table', children=[
+        
+    ]),
+    html.Div(id='', className='compound-tables', children=[
         
     ])
     
