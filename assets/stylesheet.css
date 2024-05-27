@@ -273,7 +273,7 @@ body{
 /* Table */
 .peer-table{
     width: 100%;
-    
+
 }
 .table-heading{
     font-size: 16px;
@@ -282,3 +282,8 @@ body{
     font-weight: 400;
     font-style: normal;
     }
+.peer-table-row-4{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
