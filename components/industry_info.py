@@ -140,7 +140,7 @@ peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=
         
     ]),
     html.Div(id='peer-table-row-3', className='3', children=[
-        html.Table(id='', className='', children=[
+        html.Table(id='', className='peer-table', children=[
             html.Thead(id='', className='', children=[
                 html.Th(id='srno', className='table-heading', children='Srno'),
                 html.Th(id='name', className='table-heading', children='Name'),
@@ -152,6 +152,9 @@ peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=
                 html.Th(id='QTR', className='table-heading', children='Qtr Profit Var %'),
                 html.Th(id='SALESCR', className='table-heading', children='Sales Qtr Rs.Cr.'),
                 html.Th(id='SALESVAR', className='table-heading', children='Qtr Sales Var %'),
+                html.Tr(id='', className='', children=[html.Td('tahbless'), 
+                                                       html.Td(id='', className='', children='')])
+                
             ]),
         ])
         
