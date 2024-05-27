@@ -270,3 +270,16 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+/* Table */
+.peer-table{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.table-heading{
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    }
