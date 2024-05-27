@@ -272,9 +272,8 @@ body{
 }
 /* Table */
 .peer-table{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    width: 100%;
+    
 }
 .table-heading{
     font-size: 16px;
