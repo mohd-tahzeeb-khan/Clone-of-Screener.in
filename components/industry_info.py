@@ -192,13 +192,23 @@ Quarterly_Results=html.Div(id='', className='quarerly-main-class', children=[
 ])
 Profit_Loss=html.Div(id='', className='', children=[
     html.Div(id='', className='-profitloss-title', children=[
-        
+        html.Div(id='', className='', children=[
+            html.H1(id='', className='', children='Profit & Loss'),
+            html.Span(id='', className='', children='Consolidated Figures in Rs. Crores '),html.Span(id='', className='', children=['/ View Standalone'])
+            
+        ]),
+        html.Div(id='', className='', children=[
+            html.Span(id='', className='', children=[html.Button(id='', className='', children=['RELATED PARTY'])]),
+            html.Span(id='', className='', children=[html.Button(id='', className='', children=['PRODUCT SEGMENTS'])])
+        ])
     ]),
     html.Div(id='', className='profitloss-table', children=[
         
     ]),
     html.Div(id='', className='compound-tables', children=[
-        
+        html.Div(id='', className='', children=[
+            
+        ])
     ])
     
 ])
