@@ -168,12 +168,25 @@ peer_table=html.Div(id='main-peer-table', className='main-peer-table', children=
     ])
     ]),  
 ])
-Quarterly_Results=html.Div(id='', className='', children=[
+Quarterly_Results=html.Div(id='', className='quarerly-main-class', children=[
     html.Div(id='', className='quarterly-titles', children=[
+        html.Div(id='', className='', children=[
+            html.H1(id='', className='', children='Quarterly Results'),
+            html.Span(id='', className='', children='Consolidated Figures in Rs. Crores'),
+            html.Span(id='', className='', children='/ View Standalone')
+        ]),
+        html.Div(id='', className='', children=[
+            html.Button(id='', className='', children=['PRODUCT SEGMENTS' 
+            ])
+        ])
+        
+
         
     ]),
     html.Div(id='', className='quarterly-table', children=[
-        
+        html.Table(id='', className='', children=[
+            
+        ])
     ])
     
 ])
