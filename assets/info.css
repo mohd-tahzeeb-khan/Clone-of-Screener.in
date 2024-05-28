@@ -317,3 +317,17 @@
     display: flex;
     justify-content: space-evenly;
 }
+/* ----------------------------------------quarerly-------------------------------------------- */
+.quarerly-main-class{
+    width: 90%;
+    margin: 15px auto;
+    background: #ffffffff;
+    
+}
+.quarterly-titles{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
