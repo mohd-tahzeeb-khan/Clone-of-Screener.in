@@ -1,7 +1,7 @@
 from dash import  Dash, html,dcc
 x=['tahzeeb', 'Saniya', 'Khan', 'Diwan']
 section_1=html.Div(id='section_1', className='section_1', children=[
-    html.Div(id='company-title', className='company-title', children=[
+    html.Div(id='company-title', className='company', children=[
         html.H1(id='title', className='title', children='Tata Consultancy Services Ltd')
     ]),
     html.Div(id='button-parent', className='button-parent', children=[
